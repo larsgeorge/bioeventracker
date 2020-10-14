@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A30E5488253494AB008B2A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E5487253494AB008B2A9A /* AppDelegate.swift */; };
+		A30E548A253494AB008B2A9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E5489253494AB008B2A9A /* SceneDelegate.swift */; };
+		A30E548C253494AB008B2A9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E548B253494AB008B2A9A /* ViewController.swift */; };
+		A30E548F253494AB008B2A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30E548D253494AB008B2A9A /* Main.storyboard */; };
+		A30E5491253494AD008B2A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30E5490253494AD008B2A9A /* Assets.xcassets */; };
+		A30E5494253494AD008B2A9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30E5492253494AD008B2A9A /* LaunchScreen.storyboard */; };
+		A30E549F253494AD008B2A9A /* BioEventTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E549E253494AD008B2A9A /* BioEventTrackerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30E549B253494AD008B2A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A30E547C253494AA008B2A9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30E5483253494AB008B2A9A;
+			remoteInfo = BioEventTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A30E5484253494AB008B2A9A /* BioEventTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioEventTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30E5487253494AB008B2A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A30E5489253494AB008B2A9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A30E548B253494AB008B2A9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A30E548E253494AB008B2A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A30E5490253494AD008B2A9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A30E5493253494AD008B2A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A30E5495253494AD008B2A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30E549A253494AD008B2A9A /* BioEventTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioEventTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30E549E253494AD008B2A9A /* BioEventTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioEventTrackerTests.swift; sourceTree = "<group>"; };
+		A30E54A0253494AD008B2A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30E5481253494AB008B2A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E5497253494AD008B2A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A30E547B253494AA008B2A9A = {
+			isa = PBXGroup;
+			children = (
+				A30E5486253494AB008B2A9A /* BioEventTracker */,
+				A30E549D253494AD008B2A9A /* BioEventTrackerTests */,
+				A30E5485253494AB008B2A9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A30E5485253494AB008B2A9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30E5484253494AB008B2A9A /* BioEventTracker.app */,
+				A30E549A253494AD008B2A9A /* BioEventTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A30E5486253494AB008B2A9A /* BioEventTracker */ = {
+			isa = PBXGroup;
+			children = (
+				A30E5487253494AB008B2A9A /* AppDelegate.swift */,
+				A30E5489253494AB008B2A9A /* SceneDelegate.swift */,
+				A30E548B253494AB008B2A9A /* ViewController.swift */,
+				A30E548D253494AB008B2A9A /* Main.storyboard */,
+				A30E5490253494AD008B2A9A /* Assets.xcassets */,
+				A30E5492253494AD008B2A9A /* LaunchScreen.storyboard */,
+				A30E5495253494AD008B2A9A /* Info.plist */,
+			);
+			path = BioEventTracker;
+			sourceTree = "<group>";
+		};
+		A30E549D253494AD008B2A9A /* BioEventTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A30E549E253494AD008B2A9A /* BioEventTrackerTests.swift */,
+				A30E54A0253494AD008B2A9A /* Info.plist */,
+			);
+			path = BioEventTrackerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A30E5483253494AB008B2A9A /* BioEventTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30E54A3253494AD008B2A9A /* Build configuration list for PBXNativeTarget "BioEventTracker" */;
+			buildPhases = (
+				A30E5480253494AB008B2A9A /* Sources */,
+				A30E5481253494AB008B2A9A /* Frameworks */,
+				A30E5482253494AB008B2A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioEventTracker;
+			productName = BioEventTracker;
+			productReference = A30E5484253494AB008B2A9A /* BioEventTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A30E5499253494AD008B2A9A /* BioEventTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30E54A6253494AD008B2A9A /* Build configuration list for PBXNativeTarget "BioEventTrackerTests" */;
+			buildPhases = (
+				A30E5496253494AD008B2A9A /* Sources */,
+				A30E5497253494AD008B2A9A /* Frameworks */,
+				A30E5498253494AD008B2A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A30E549C253494AD008B2A9A /* PBXTargetDependency */,
+			);
+			name = BioEventTrackerTests;
+			productName = BioEventTrackerTests;
+			productReference = A30E549A253494AD008B2A9A /* BioEventTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A30E547C253494AA008B2A9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Lars George";
+				TargetAttributes = {
+					A30E5483253494AB008B2A9A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A30E5499253494AD008B2A9A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A30E5483253494AB008B2A9A;
+					};
+				};
+			};
+			buildConfigurationList = A30E547F253494AA008B2A9A /* Build configuration list for PBXProject "BioEventTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A30E547B253494AA008B2A9A;
+			productRefGroup = A30E5485253494AB008B2A9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A30E5483253494AB008B2A9A /* BioEventTracker */,
+				A30E5499253494AD008B2A9A /* BioEventTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A30E5482253494AB008B2A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30E5494253494AD008B2A9A /* LaunchScreen.storyboard in Resources */,
+				A30E5491253494AD008B2A9A /* Assets.xcassets in Resources */,
+				A30E548F253494AB008B2A9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E5498253494AD008B2A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30E5480253494AB008B2A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30E548C253494AB008B2A9A /* ViewController.swift in Sources */,
+				A30E5488253494AB008B2A9A /* AppDelegate.swift in Sources */,
+				A30E548A253494AB008B2A9A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E5496253494AD008B2A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30E549F253494AD008B2A9A /* BioEventTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A30E549C253494AD008B2A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A30E5483253494AB008B2A9A /* BioEventTracker */;
+			targetProxy = A30E549B253494AD008B2A9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A30E548D253494AB008B2A9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A30E548E253494AB008B2A9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A30E5492253494AD008B2A9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A30E5493253494AD008B2A9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A30E54A1253494AD008B2A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A30E54A2253494AD008B2A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A30E54A4253494AD008B2A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BioEventTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larsgeorge.apps.ios.BioEventTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A30E54A5253494AD008B2A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BioEventTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larsgeorge.apps.ios.BioEventTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A30E54A7253494AD008B2A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BioEventTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larsgeorge.apps.ios.BioEventTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioEventTracker.app/BioEventTracker";
+			};
+			name = Debug;
+		};
+		A30E54A8253494AD008B2A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BioEventTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.larsgeorge.apps.ios.BioEventTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioEventTracker.app/BioEventTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A30E547F253494AA008B2A9A /* Build configuration list for PBXProject "BioEventTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30E54A1253494AD008B2A9A /* Debug */,
+				A30E54A2253494AD008B2A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30E54A3253494AD008B2A9A /* Build configuration list for PBXNativeTarget "BioEventTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30E54A4253494AD008B2A9A /* Debug */,
+				A30E54A5253494AD008B2A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30E54A6253494AD008B2A9A /* Build configuration list for PBXNativeTarget "BioEventTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30E54A7253494AD008B2A9A /* Debug */,
+				A30E54A8253494AD008B2A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A30E547C253494AA008B2A9A /* Project object */;
+}
